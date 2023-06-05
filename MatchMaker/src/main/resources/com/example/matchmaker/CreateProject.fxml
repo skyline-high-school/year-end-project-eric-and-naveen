@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="projectInformation" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.matchmaker.CreateProjectController">
+   <children>
+      <Label layoutX="151.0" layoutY="14.0" text="Create New Project ">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="projectInformation" layoutX="201.0" layoutY="84.0" mnemonicParsing="false" onAction="#onProjectInformationClick" prefHeight="61.0" prefWidth="190.0" text="Project Information">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="addMembers" layoutX="201.0" layoutY="154.0" mnemonicParsing="false" onAction="#onAddMembersClick" prefHeight="61.0" prefWidth="190.0" text="Add Members">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="editRemoveMembers" layoutX="192.0" layoutY="226.0" mnemonicParsing="false" onAction="#onEditRemoveMembersClick" prefHeight="39.0" prefWidth="209.0" text="Edit/Remove Members">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="beginMatchmaking" layoutX="192.0" layoutY="276.0" mnemonicParsing="false" onAction="#onBeginMatchmakingClick" prefHeight="61.0" prefWidth="190.0" text="Begin Matchmaking">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
