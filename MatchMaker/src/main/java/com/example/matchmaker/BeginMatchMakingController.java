@@ -20,7 +20,7 @@ public class BeginMatchMakingController implements Initializable {
 
     @FXML
     Button doneButton;
-
+    // initializing the various studentsets for each possible combination
     static private Set<Student> studentSet = new HashSet<Student>();
     static private Set<Student> studentsWithMutualPreferences;
     static private Set<Student> studentsWithMutualInterests;
@@ -34,7 +34,7 @@ public class BeginMatchMakingController implements Initializable {
     static private int groupSize;
 
     static private ArrayList<String> groupListStrings = new ArrayList<String>();
-
+    // getters and setters for each variable defined earlier
     public static Set<Student> getStudentSet() {
         return studentSet;
     }
@@ -58,7 +58,7 @@ public class BeginMatchMakingController implements Initializable {
     public static void setGroupCount(int groupCount) {
         BeginMatchMakingController.groupCount = groupCount;
     }
-
+    // make sure student isn't already in a group
     private static boolean IsAlreadyInAGroup(Student student) {
         for(Set<Student> currentGroup : groups) {
             if (currentGroup.contains(student)) {
@@ -108,7 +108,12 @@ public class BeginMatchMakingController implements Initializable {
         }
         System.out.println("End BuildMutualPreferenceGroups()");
     }
-
+    /* Construct groups on the following criteria:
+    1. If students mutually request each other, group them together
+    2. If students mutually interest each other (artistic requests technological, technological requests artist), group them together
+    3. If students' interests complement each other (artistic, technological) group them together
+    4. If all else fails, randomize
+     */
     private static void BuildMutualInterestGroups()
     {
         System.out.println("Begin BuildMutualInterestGroups()");

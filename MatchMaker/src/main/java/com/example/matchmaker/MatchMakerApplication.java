@@ -8,6 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class MatchMakerApplication extends Application {
+    //home page UI initialization
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MatchMakerApplication.class.getResource("MatchMakerView.fxml"));

@@ -19,6 +19,7 @@ public class ProjectInfoController {
     @FXML
     private Button saveButton;
     @FXML
+    // project information screen
     protected void onSaveButtonClick() {
         System.out.format("number of groups field value: %s\n", numOfGroupsText.getText());
         BeginMatchMakingController.setGroupCount(Integer.parseInt(numOfGroupsText.getText()));
