@@ -8,12 +8,12 @@ Artistic, Musical, Technological, Leader, Studious
 }
 
 public class Student {
-    private Set desiredSkills;
-    private Set skills;
     private int id;
     private String name;
+    private Set<String> skills;
+    private Set<String> desiredSkills;
     private String studentPreference;
-    public Student(String name, int id, String studentPreference, Set skills, Set desiredSkills) {
+    public Student(int id, String name,  Set<String> skills, Set<String> desiredSkills, String studentPreference) {
         this.name = name;
         this.id = id;
         this.studentPreference = studentPreference;
