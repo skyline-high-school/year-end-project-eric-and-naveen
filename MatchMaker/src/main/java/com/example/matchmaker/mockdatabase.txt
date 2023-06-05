@@ -1,0 +1,20 @@
+1,Alice, Artistic; Musical,Tech-savvy; Leader,Bob
+2,Bob,Tech-savvy; Leader,Artistic; Academically-oriented,Alice
+3,Charlie,Musical; Academically-oriented, Tech-savvy; Leader,Dave
+4,Dave,Leader; Tech-savvy, Artistic; Musical,Charlie
+5,Emily,Artistic; Tech-savvy, Musical; Leader,Frank
+6,Frank,Musical; Artistic,Tech-savvy; Leader,Emily
+7,Grace,Artistic; Leader,Tech-savvy; Academically-oriented
+8,Henry,Musical; Tech-savvy,Artistic; Leader
+9,Ivy,Tech-savvy; Academically-oriented,Leader; Artistic,Jake
+10,Jake,Leader; Tech-savvy,Artistic; Musical,Ivy
+11,Kevin,Musical; Artistic,Tech-savvy; Academically-oriented
+12,Lily,Artistic; Leader,Tech-savvy; Musical
+13,Mark,Tech-savvy; Leader,Artistic; Musical
+14,Natalie,Musical; Academically-oriented,Tech-savvy; Leader
+15,Oliver,Artistic; Tech-savvy,Leader; Musical
+16,Peter,Musical; Artistic,Tech-savvy; Leader
+17,Quinn,Leader; Tech-savvy,Artistic; Musical
+18,Rachel,Artistic; Leader,Tech-savvy; Academically-oriented
+19,Sam,Musical; Tech-savvy,Leader; Artistic
+20,Tina,Tech-savvy; Academically-oriented,Artistic; Musical
